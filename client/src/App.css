@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+
+
+.nosifer {
+  font-family: "Nosifer", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+
+.hero-title {
+  text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.5);
+}

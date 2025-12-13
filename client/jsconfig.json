@@ -1,0 +1,9 @@
+// jsconfig.json
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "jsx": "react-jsx" // Or "preserve" for older setups
+    },
+    "exclude": ["node_modules"]
+}
