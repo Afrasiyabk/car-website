@@ -33,6 +33,10 @@ app.use((req, res) => {
   res.sendFile(path.join(__dirname, "client/dist/index.html"));
 });
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 
 // start server
 app.listen(port, () => {
